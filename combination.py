@@ -3,12 +3,6 @@ import numpy as np
 # implement your function to combine two numpy arrays 
 
 def combination(array1, array2, axis=0):
-        if not isinstance(array1, np.ndarray):
-            raise Exception("First argument is not a Num Py Array")
-        
-        if not isinstance(array2, np.ndarray):
-            raise Exception("Second argument is not a Num Py Array")
-        
         if not isinstance(axis, int):
             raise Exception("Axis argument is not an int")
 
