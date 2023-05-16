@@ -43,6 +43,7 @@ def test_strange_pattern():
 
     result = testfile.strange_pattern((2, 2))
 
+    print(sha1(result).hexdigest)
     assert sha1(result).hexdigest(
     ) == "3c585604e87f855973731fea83e21fab9392d2fc", "Your function does not produce the correct pattern in an edge case!"
 

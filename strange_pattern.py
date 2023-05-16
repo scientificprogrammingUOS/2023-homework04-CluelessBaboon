@@ -2,8 +2,10 @@ import numpy as np
 
 # implement the function strange pattern
 
-def strange_pattern(n=10,m=10):
+def strange_pattern(shape):
 
+    n = shape[0]
+    m = shape [1]
     if n==0 and m==0:
         return np.empty((0,))
     if not isinstance(n, int):
