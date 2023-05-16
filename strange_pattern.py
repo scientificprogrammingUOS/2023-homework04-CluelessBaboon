@@ -7,7 +7,9 @@ def strange_pattern(shape):
     n = shape[0]
     m = shape [1]
     if n==0 and m==0:
-        return np.empty((0,))
+        return np.empty((0,0))
+    if n==0 and m==0:
+        return np.array([True, False][False][True])
     if not isinstance(n, int):
         n = 10
     if not isinstance(m, int):

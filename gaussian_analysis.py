@@ -22,6 +22,9 @@ def gaussian_analysis(loc, scale, lower_bound, upper_bound):
 
     
 if __name__ == "__main__":
-    # use this for your own testing!
-
-    pass
+    loc =  0
+    scale = 3
+    lower_bound = 1
+    upper_bound = 3
+    print(gaussian_analysis(loc,scale,lower_bound,upper_bound))
+    
