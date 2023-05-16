@@ -23,4 +23,5 @@ def strange_pattern(shape):
     return new_array
 
 if __name__ == "__main__":
+    print(strange_pattern((10, 10)))
     pass
